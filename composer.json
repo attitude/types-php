@@ -1,0 +1,28 @@
+{
+	"name": "attitude/types",
+	"description": "PHP types powered by Reflections",
+	"license": "MIT",
+	"scripts": {
+		"test": "pest"
+	},
+	"autoload": {
+		"psr-4": {
+			"Attitude\\Types\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Martin Adamko",
+			"email": "attitude@users.noreply.github.com"
+		}
+	],
+	"require-dev": {
+		"pestphp/pest": "^2.25",
+		"pestphp/pest-plugin-watch": "^2.0"
+	},
+	"config": {
+		"allow-plugins": {
+			"pestphp/pest-plugin": true
+		}
+	}
+}
